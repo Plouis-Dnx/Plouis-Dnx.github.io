@@ -3,45 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/libs/animate.css/4.1.1/animate.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark my-2 mx-3 rounded">
+    <nav class="navbar navbar-expand-lg bg-dark my-2 mx-2 mx-md-3 rounded">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 h1 text-light"> DENEUX Pierre-Louis </span>
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <a href="index.html" class="nav-link text-light me-md-3">Accueil</a>
-          <a href="projets.html" class="nav-link text-light me-md-3">Projets</a>
-          <a href="contact.html" class="nav-link text-light me-md-3">Contact</a>
-          <a href="centres_interet.html" class="nav-link text-light me-md-3">Plus sur Moi</a>
+          <a href="index.html" class="nav-link text-light me-2 me-md-3">Accueil</a>
+          <a href="projets.html" class="nav-link text-light me-2 me-md-3">Projets</a>
+          <a href="contact.html" class="nav-link text-light me-2 me-md-3">Contact</a>
+          <a href="centres_interet.html" class="nav-link text-light me-2 me-md-3">Plus sur Moi</a>
         </div>
       </div>
     </nav>
-
-    <div class="row text-light">
+    <div class="row text-light px-0 g-0">
       <!-- Bienvenue sur mon Portfolio -->
-      <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center fadeInLeft"> 
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center fadeInLeft">
         <p class="h1 text-violet display-4 display-md-3 display-lg-2 text-center"> Bienvenue sur mon Portfolio </p>
         <a href="./CV.pdf" class="btn btn-success"> Mon CV </a>
       </div>
-
       <!-- A propos de Moi -->
-      <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center fadeInRight"> 
-        <div class="card m-3 text-light bg-dark" >
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center fadeInRight">
+        <div class="card m-2 m-md-3 text-light bg-dark">
           <div class="row g-0">
             <div class="col-4">
               <img src="./photo_de_profil.jpg" class="img-fluid rounded-start h-100" alt="photo_de_profil" style="max-width: 100%; height: auto; object-fit: cover;">
@@ -61,19 +57,18 @@
     </div>
 
     <!-- Expériences Pro et Parcours Scolaire -->
-    <p class="fs-2 text-center text-google text-mint m-3 m-md-5 fs-md-1 fs-lg-2"> PARCOURS SCOLAIRE & COMPETENCES</p>
-    <div class="row text-light m-3">
-      <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-
+    <p class="fs-2 text-center text-google text-mint m-2 m-md-3 fs-md-1 fs-lg-2"> PARCOURS SCOLAIRE & COMPETENCES</p>
+    <div class="row text-light m-2 m-md-3 g-3">
+      <div class="col-12 col-lg-4 mb-2 mb-md-0">
+        <!-- Parcours Scolaire -->
         <div class="card bg-dark h-100">
           <div class="card-body">
             <h5 class="card-title text-mint text-center"> Parcours Scolaire</h5>
-
-            <div class="card bg-incard text-light mb-3 isAnimated">
+            <div class="card bg-incard text-light mb-2 mb-md-3 isAnimated">
               <div class="card-body">
                 <h5 class="card-title text-center"> Lycée </h5>
                 <h6 class="card-subtitle mb-2 text-center text-white-50">Lycée Niepce-Balleure | <em>Chalon-sur-Saône</em> </h6>
-                <div class="card-body"> 
+                <div class="card-body">
                   <p> Bac Général <em>Mention Bien</em></p>
                   <p class="m-0">Spécialités : </p>
                   <ul class="m-0">
@@ -84,37 +79,30 @@
                 </div>
               </div>
             </div>
-
             <div class="card bg-incard text-light isAnimated">
               <div class="card-body">
                 <h5 class="card-title text-center"> Etudes Supérieures </h5>
                 <h6 class="card-subtitle mb-2 text-center text-white-50">Université Polytechnique des Hauts-de-France | <em>Valenciennes</em> </h6>
-                <div class="card-body"> 
+                <div class="card-body">
                   Licence Informatique (en cours)
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-
       </div>
-
       <!-- Compétences -->
       <div class="col-12 col-lg-8">
-
         <div class="card bg-dark h-100">
           <div class="card-body">
             <h5 class="card-title text-mint text-center"> Compétences </h5>
-
-            <div class="row text-light g-md-3 pt-md-5">
-
+            <div class="row text-light g-md-3 pt-md-5 g-0">
               <!-- Developpement Web -->
-              <div class="col-12 col-md-6 col-lg-3 mb-3 mb-md-3 m-lg-0">
+              <div class="col-12 col-md-6 col-lg-3 mb-2 mb-md-3 m-md-0">
                 <div class="card bg-incard text-light isAnimated h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center text-responsive"> Développement Web </h5>
-                    <div class="card-body"> 
+                    <div class="card-body">
                       Compétences en <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> (avec <em>NodeJS</em>). <br>
                       Je connais les frameworks <b>Express</b> pour le back-end ainsi que <b>Bootstrap</b>
                       pour l'esthétique du site.
@@ -122,42 +110,39 @@
                   </div>
                 </div>
               </div>
-
               <!-- Programmation Orientée Objet -->
-              <div class="col-12 col-md-6 col-lg-3 mb-3 mb-md-3 m-lg-0">
+              <div class="col-12 col-md-6 col-lg-3 mb-2 mb-md-3 m-md-0">
                 <div class="card bg-incard text-light isAnimated h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center text-responsive"> Programmation Orientée Objet </h5>
-                    <div class="card-body"> 
+                    <div class="card-body">
                       Au lycée, j'ai travaillé essentiellement avec <b>Python</b> et lors de mes études
                       j'ai pu apprendre <b> Java </b>. <br>
-                      J'ai également pu, grâce à des projets personnels, acquérir des bases solides en 
+                      J'ai également pu, grâce à des projets personnels, acquérir des bases solides en
                       <b>C++</b> (<em>Arduino</em>) et <b>C#</b> (<em>Unity</em>).
                     </div>
                   </div>
                 </div>
               </div>
-
               <!-- Bases de Données -->
-              <div class="col-12 col-md-6 col-lg-3 mb-3 m-md-0">
+              <div class="col-12 col-md-6 col-lg-3 mb-2 mb-md-3 m-md-0">
                 <div class="card bg-incard text-light isAnimated h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center text-responsive"> BDD </h5>
-                    <div class="card-body"> 
+                    <div class="card-body">
                       Durant ma formation, j'ai pu développer des connaissances poussées
                       en <b>SQL</b> en utilisant SQLite et MySQL.
                     </div>
                   </div>
                 </div>
               </div>
-
               <!-- Autres Langages de Programmation -->
-               <div class="col-12 col-md-6 col-lg-3 m-md-0">
+              <div class="col-12 col-md-6 col-lg-3 mb-2 mb-md-3 m-md-0">
                 <div class="card bg-incard text-light isAnimated h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center text-responsive"> Autres Langages de Programmation </h5>
-                    <div class="card-body"> 
-                      La Licence m'a permis d'apprendre en profondeur différents langages de programmation comme 
+                    <div class="card-body">
+                      La Licence m'a permis d'apprendre en profondeur différents langages de programmation comme
                       le <b>C</b> (<em>Structures de Données, Processus</em>), <b>Prolog</b>, <b>Bash</b>.
                     </div>
                   </div>
@@ -166,10 +151,8 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./entrance.js"></script>
 </body>

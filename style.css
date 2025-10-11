@@ -2,8 +2,6 @@ body{
     background-image: linear-gradient(45deg, black 10%, #1e0058 30%, #1e0058 30%, black 100%);
     min-height: 100vh; /* Pour couvrir toute la hauteur de la page */
     margin: 0; /* Supprime les marges par défaut */
-
-    overflow-x: hidden;
 }
 
 .text-google{
