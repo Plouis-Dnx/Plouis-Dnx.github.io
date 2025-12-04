@@ -27,7 +27,7 @@ function Projects() {
           <ProjectCard
             title="Portfolio"
             description="
-                  Eh oui ! Ce portfolio a été créé avec React et Tailwind CSS ! Il m'a permis d'avoir un code plus propre à la version que j'avais avant ou je n'utilisais
+                  Eh oui ! Ce portfolio a été créé avec React et Tailwind CSS ! Il m'a permis d'avoir un code plus propre à la version que j'avais avant où je n'utilisais
                   que du HTML/CSS pur. De plus, ce petit projet, développé en 1 petite journée seulement, m'a permis de développer mes compétences en React 
                   et d'apprendre les bases de Tailwind !"
             technologies={["React", "Tailwind CSS"]}

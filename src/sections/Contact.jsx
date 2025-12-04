@@ -24,7 +24,7 @@ function Contact() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/mon-github"
+            href="https://github.com/Plouis-Dnx"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-white transition-colors duration-300"
@@ -34,7 +34,7 @@ function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/mon-linkedin"
+            href="https://linkedin.com/in/plouis-deneux"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-white transition-colors duration-300"
