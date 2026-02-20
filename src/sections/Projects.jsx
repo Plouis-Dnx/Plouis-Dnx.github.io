@@ -92,7 +92,17 @@ function Projects() {
             technologies={["Java"]}
             github="https://github.com/Plouis-Dnx/StreamSa"
           />
-          
+
+          <ProjectCard
+            title="Ads Banner"
+            description="
+                  J’ai pu réaliser ce projet dans le cadre du processus d’acceptation pour devenir stagiaire chez PlaceToBe AI. Ads Banner vise à 
+                  implémenter une bannière publicitaire dynamique sur un site web, en utilisant des technologies modernes telles que React pour le frontend et Supabase pour la 
+                  gestion des données. Tailwind CSS a également été utilisé pour l’interface utilisateur. Ce projet m’a permis de montrer mes compétences 
+                  en React ainsi que d’apprendre à utiliser Supabase pour la gestion de bases de données."
+            technologies={["React", "Tailwind CSS", "Supabase"]}
+            github="https://github.com/Plouis-Dnx/adsbanner"
+          />
         </div>
       </div>
     </section>
